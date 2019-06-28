@@ -9,7 +9,7 @@ This folder consists of :
 3. nltk_data folder that has the stopwords.
 4. A tf_idf.txt that outputs weight of each word w.r.t file provided.
 
-query(qstring): returns a tuple in the form of (filename of the document, score), where the document is the query answer with respect to "qstring" . 
+* query(qstring): returns a tuple in the form of (filename of the document, score), where the document is the query answer with respect to "qstring" . 
 If no document contains any token in the query, returns ("None",0). 
 
 * getidf(token): returns the inverse document frequency of a token. If the token doesn't exist in the corpus, returns -1. The parameter 'token' is already stemmed.
